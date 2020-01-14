@@ -19,6 +19,9 @@ $(call inherit-product-if-exists, vendor/gigaset/GS5/GS5-vendor.mk)
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# Enable virtual A/B OTA
+$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
+
 # Properties
 -include $(LOCAL_PATH)/product_prop.mk
 
