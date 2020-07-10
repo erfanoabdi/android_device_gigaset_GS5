@@ -13,3 +13,13 @@ on boot
     chown system system /sys/class/leds/red/led_time
     chmod 0664 /sys/class/leds/red/max_brightness
     chown system system /sys/class/leds/red/max_brightness
+
+service aee_aedv /system/bin/true
+    override
+    oneshot
+    disabled
+
+service aee_aedv64 /system/bin/true
+    override
+    oneshot
+    disabled
