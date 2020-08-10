@@ -104,6 +104,10 @@ PRODUCT_BUILD_SUPER_PARTITION := true
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 BOARD_BUILD_SUPER_IMAGE_BY_DEFAULT := true
 
+# Permissions
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/permissions/privapp-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mediatek.xml
+
 # RCS
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
