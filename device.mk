@@ -137,7 +137,8 @@ PRODUCT_PACKAGES += \
     libhidltransport \
     libhidltransport.vendor \
     libhwbinder \
-    libhwbinder.vendor
+    libhwbinder.vendor \
+    vndservicemanager
 
 # IMS
 PRODUCT_BOOT_JARS += \
