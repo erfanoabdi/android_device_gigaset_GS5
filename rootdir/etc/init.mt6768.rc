@@ -5,7 +5,7 @@ on init
     mount none /system/lib/modules /vendor/lib/modules bind
 
 on boot
-    setprop init.svc.console stopped
+    stop console
 
 on charger
     start charger
