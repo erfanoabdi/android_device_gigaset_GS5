@@ -21,19 +21,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from GS5 device
-$(call inherit-product, $(LOCAL_PATH)/device.mk)
+# Inherit from mimameid device
+$(call inherit-product, device/gigaset/GS5-unified/device.mk)
 
-PRODUCT_BRAND := gigaset
-PRODUCT_DEVICE := GS5
-PRODUCT_MANUFACTURER := Gigaset
-PRODUCT_NAME := lineage_GS5
-PRODUCT_MODEL := GS5
-
-# Build info
-BUILD_FINGERPRINT := "Gigaset/GS5_EEA/GS5:11/RP1A.200720.011/1632828872:user/release-keys"
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=GS5_EEA \
-    PRIVATE_BUILD_DESC="full_k69v1_64-user 11 RP1A.200720.011 1632828872 release-keys"
-
-PRODUCT_GMS_CLIENTID_BASE := android-gigaset
+PRODUCT_BRAND := volla
+PRODUCT_DEVICE := mimameid
+PRODUCT_MANUFACTURER := Volla
+PRODUCT_NAME := lineage_mimameid
+PRODUCT_MODEL := Volla Phone 22

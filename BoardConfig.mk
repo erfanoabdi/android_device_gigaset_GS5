@@ -14,10 +14,6 @@
 # limitations under the License.
 #
 
-BOARD_VENDOR := gigaset
-
-DEVICE_PATH := device/gigaset/GS5
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a

@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,8 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := $(call my-dir)
+BOARD_VENDOR := gigaset
 
-ifneq ($(filter mimameid GS5,$(TARGET_DEVICE)),)
-  subdir_makefiles=$(call first-makefiles-under,$(LOCAL_PATH))
-  $(foreach mk,$(subdir_makefiles),$(info including $(mk) ...)$(eval include $(mk)))
-endif
+DEVICE_PATH := device/gigaset/GS5-unified
+
+-include $(DEVICE_PATH)/BoardConfig.mk
