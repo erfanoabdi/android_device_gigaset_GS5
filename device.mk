@@ -81,6 +81,10 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.0 \
     libsuspend
 
+# FM Radio
+PRODUCT_PACKAGES += \
+    MtkFMRadio
+
 # IMS
 PRODUCT_BOOT_JARS += \
     ImsServiceBase \
