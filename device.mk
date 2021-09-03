@@ -86,6 +86,9 @@ PRODUCT_BOOT_JARS += \
     mediatek-telephony-base \
     mediatek-telephony-common
 
+PRODUCT_PACKAGES += \
+    libshim_vtservice
+
 # Init
 PRODUCT_PACKAGES += \
     init.mt6768.rc
