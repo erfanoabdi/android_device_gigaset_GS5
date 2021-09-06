@@ -6,11 +6,3 @@ on init
 
 on boot
     stop console
-
-on charger
-    start charger
-
-service charger /system/bin/charger
-    class charger
-    group system wakelock
-    capabilities BLOCK_SUSPEND SYS_ADMIN SYS_BOOT

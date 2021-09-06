@@ -76,6 +76,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# Charger
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.0 \
+    libsuspend
+
 # IMS
 PRODUCT_BOOT_JARS += \
     ImsServiceBase \
