@@ -42,6 +42,13 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     otapreopt_script
 
+# Boot control
+PRODUCT_PACKAGES += \
+    android.hardware.boot@1.1-mtkimpl.recovery
+
+PRODUCT_PACKAGES_DEBUG += \
+    bootctl
+
 # Properties
 -include $(LOCAL_PATH)/product_prop.mk
 
