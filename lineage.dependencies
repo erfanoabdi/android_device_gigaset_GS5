@@ -1,6 +1,6 @@
 [
  {
-   "repository": "android_kernel_gigaset_mt6763",
-   "target_path": "kernel/gigaset/mt6763"
+   "repository": "android_kernel_gigaset_mt6768",
+   "target_path": "kernel/gigaset/mt6768"
  }
 ]

@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product-if-exists, vendor/gigaset/GS290/GS290-vendor.mk)
+$(call inherit-product-if-exists, vendor/gigaset/GS5/GS5-vendor.mk)
 
 # Properties
 -include $(LOCAL_PATH)/product_prop.mk
@@ -41,10 +41,10 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.mt6763.rc
+    init.mt6768.rc
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.mt6763:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6763
+    $(LOCAL_PATH)/rootdir/etc/fstab.mt6768:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6768
 
 # NFC
 PRODUCT_PACKAGES += \
@@ -54,7 +54,7 @@ PRODUCT_PACKAGES += \
 
 # Recovery
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/root/init.recovery.mt6763.rc:root/init.recovery.mt6763.rc
+    $(LOCAL_PATH)/recovery/root/init.recovery.mt6768.rc:root/init.recovery.mt6768.rc
 
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
