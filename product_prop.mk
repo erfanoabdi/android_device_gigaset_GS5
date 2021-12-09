@@ -20,6 +20,10 @@ else
 VENDOR_LOG_LEVEL=S
 endif
 
+# Camera
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.odm.camera=1
+
 # Telephony
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.telephony.default_network=10,10
