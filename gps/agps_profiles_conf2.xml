@@ -78,31 +78,10 @@
         "IPv4address:port"
   -->
 
-  <cur_supl_profile name="GOOGLE"
-      addr="supl.google.com"
+  <cur_supl_profile name="Vodafone"
+      addr="supl.vodafone.com"
       port="7275"
       tls="true"
-  />
-
-  <!-- GOOGLE-->
-  <supl_profile name="GOOGLE"
-      addr="supl.google.com"
-      port="7275"
-      tls="true"
-  />
-
-  <!-- GOOGLE-->
-  <supl_profile name="GOOGLE nonTLS"
-      addr="supl.google.com"
-      port="7276"
-      tls="false"
-  />
-
-  <!-- GOOGLE-->
-  <supl_profile name="GOOGLE IP"
-      addr="74.125.204.192"
-      port="7276"
-      tls="false"
   />
 
   <!-- Spirent Lab -->
@@ -256,17 +235,6 @@
       addr="location2.kddi.ne.jp"
       port="7275"
       tls="true"
-  />
-
-  <!-- Vodafone -->
-  <supl_profile name="Vodafone"
-      addr="supl.vodafone.com"
-      port="7275"
-      tls="true"
-      mcc_mnc="22010"
-      supl_version="2"
-      tls_version="1"
-      sha_version="0"
   />
 
   <!-- Iusacell (ATT Mexico) -->
