@@ -91,6 +91,9 @@ PRODUCT_PACKAGES += \
     ImsServiceBase \
     libshim_vtservice
 
+PRODUCT_PACKAGES += \
+    libhidltransport
+
 # Init
 PRODUCT_PACKAGES += \
     init.mt6768.rc
