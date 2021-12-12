@@ -64,6 +64,10 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.lights-service.GS5
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
@@ -158,3 +162,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
+
+# VNDK
+PRODUCT_TARGET_VNDK_VERSION := 30
