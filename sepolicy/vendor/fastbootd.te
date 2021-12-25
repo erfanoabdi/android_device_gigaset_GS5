@@ -1,0 +1,66 @@
+allow fastbootd {
+    bootdevice_block_device
+    para_block_device
+    otp_part_block_device
+    keyblock_device
+    expdb_block_device
+    misc2_block_device
+    logo_block_device
+    tee_block_device
+    seccfg_block_device
+    secro_block_device
+    preloader_block_device
+    lk_block_device
+    protect1_block_device
+    protect2_block_device
+    keystore_block_device
+    oemkeystore_block_device
+    sec1_block_device
+    md1img_block_device
+    md1dsp_block_device
+    md1arm7_block_device
+    md3img_block_device
+    mmcblk1_block_device
+    mmcblk1p1_block_device
+    odm_block_device
+    oem_block_device
+    vendor_block_device
+    dtbo_block_device
+    loader_ext_block_device
+    spm_device
+    persist_block_device
+    md_block_device
+    spmfw_block_device
+    mcupmfw_block_device
+    scp_block_device
+    sspm_block_device
+    dsp_block_device
+    ppl_block_device
+    nvcfg_block_device
+    cam_vpu_block_device
+    boot_para_block_device
+    vbmeta_block_device
+    kb_block_device
+    dkb_block_device
+    dpm_block_device
+    audio_dsp_block_device
+    gz_block_device
+    pi_img_device
+    nvdata_device
+    nvram_device
+  }:blk_file { rw_file_perms };
+
+allow fastbootd {
+    sysfs_boot_type
+}:file { rw_file_perms };
+
+allow fastbootd self:process setfscreate;
+allow fastbootd self:capability sys_rawio;
+
+allowxperm fastbootd {
+    bootdevice_block_device
+  }:blk_file ioctl {
+      BLKSECDISCARD
+      BLKDISCARD
+      MMC_IOCTLCMD
+  };

@@ -1,0 +1,3 @@
+# FM
+type fm_device, dev_type;
+allow system_app fm_device:chr_file rw_file_perms;

@@ -1,0 +1,1 @@
+allow hal_health prize_sysfs_batteryinfo:file rw_file_perms;

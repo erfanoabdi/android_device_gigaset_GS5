@@ -1,0 +1,6 @@
+# label for battery warning
+genfscon sysfs /devices/platform/charger/BatteryNotify        u:object_r:sysfs_battery_warning:s0
+genfscon sysfs /devices/platform/mt-battery/BatteryNotify     u:object_r:sysfs_battery_warning:s0
+
+# Battery
+genfscon sysfs /devices/platform/11007000.i2c0/i2c-0/0-0062/power_supply/cw-bat/type u:object_r:prize_sysfs_batteryinfo:s0
