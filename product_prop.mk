@@ -30,7 +30,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # LCD Density
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.sf.lcd_density=420
+    ro.sf.lcd_density=480
 
 # Provides overrides to configure the Dalvik heap for a 4GB phone
 PRODUCT_PRODUCT_PROPERTIES += \
