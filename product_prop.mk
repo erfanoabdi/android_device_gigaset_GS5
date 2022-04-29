@@ -22,7 +22,8 @@ endif
 
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.odm.camera=1
+    ro.odm.camera=1 \
+    vendor.debug.camera.single_main2=1
 
 # Telephony
 PRODUCT_PRODUCT_PROPERTIES += \
