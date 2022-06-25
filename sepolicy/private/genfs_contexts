@@ -4,3 +4,22 @@ genfscon sysfs /devices/platform/mt-battery/BatteryNotify     u:object_r:sysfs_b
 
 # Battery
 genfscon sysfs /devices/platform/11007000.i2c0/i2c-0/0-0062/power_supply/cw-bat/type u:object_r:prize_sysfs_batteryinfo:s0
+
+# Wakeup
+genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6358-pmic/mt6358-rtc/rtc/rtc0/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6358-pmic/mt6358-rtc/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6358-pmic/mt635x-auxadc/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/10238000.gce/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11004000.i2c7/i2c-7/7-0053/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11007000.i2c0/i2c-0/0-002c/omnivision_tcm.0/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11007000.i2c0/i2c-0/0-0062/power_supply/cw-bat/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/1100d000.i2c6/i2c-6/6-004e/tcpc/type_c_port0/dual-role-type_c_port0/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/1100f000.i2c3/i2c-3/3-0008/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/1100f000.i2c3/i2c-3/3-002b/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11016000.i2c5/i2c-5/5-0053/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/battery/power_supply/battery/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/mt_charger/power_supply/ac/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/mt_charger/power_supply/charger/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/mt_charger/power_supply/usb/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/mt_charger/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/pinctrl/wakeup u:object_r:sysfs_wakeup:s0
