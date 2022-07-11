@@ -20,6 +20,10 @@ else
 VENDOR_LOG_LEVEL=S
 endif
 
+# Bluetooth
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.bluetooth.bluetooth_audio_hal.disabled=true
+
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.odm.camera=1 \
