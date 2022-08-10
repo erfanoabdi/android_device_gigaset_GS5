@@ -136,6 +136,10 @@ BOARD_BUILD_SUPER_IMAGE_BY_DEFAULT := true
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/privapp-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mediatek.xml
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power-service-mediatek.GS5
+
 # RCS
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
