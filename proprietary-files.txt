@@ -4,7 +4,7 @@ lib64/vendor.mediatek.hardware.pq@2.0.so
 lib64/vendor.mediatek.hardware.pq@2.1.so
 lib64/vendor.mediatek.hardware.pq@2.2.so
 lib64/vendor.mediatek.hardware.pq@2.3.so
-product/vendor_overlay/30/lib64/libmtkcam_metastore.so|8e86faccebdf11063f0928c175cd28d0cfd683d1
+product/vendor_overlay/30/lib64/libmtkcam_metastore.so|7ba75a46acb8e9cd42cc54b9f9709cc13867e16a
 
 # Charger
 bin/kpoc_charger
