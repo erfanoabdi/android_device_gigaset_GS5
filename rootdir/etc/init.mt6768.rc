@@ -1,6 +1,10 @@
 on init
     # Disable vendor overlay
     mount none /vendor/lost+found /vendor/overlay bind
+    mount none /vendor/lost+found /vendor/app/GoogleNetworkStackResOverlay bind
+    mount none /vendor/lost+found /vendor/app/NetworkStackInProcessResOverlay bind
+    mount none /vendor/lost+found /vendor/app/NetworkStackResOverlay bind
+
     # Mount kernel modules
     mount none /system/lib/modules /vendor/lib/modules bind
 
