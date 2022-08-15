@@ -1,0 +1,22 @@
+// Copyright 2012 The Android Open Source Project
+
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+cc_library {
+    name: "libpowerhal",
+    product_specific: true,
+    srcs: [
+        "libpowerhal.cpp"
+    ],
+    export_include_dirs: ["include"],
+    local_include_dirs: ["include"],
+    shared_libs: [
+        "libbase",
+        "libcutils",
+    ],
+    cflags: [
+        "-Werror",
+    ],
+}
