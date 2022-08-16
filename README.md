@@ -6,7 +6,7 @@ Device configuration for Gigaset GS5 (GS5)
 Basic   | Spec Sheet
 -------:|:-------------------------
 CPU     | 2.0 GHz (2x Cortex-A75 + 6x Cortex-A55)
-CHIPSET | Mediatek Helio G85 (MT6769V)
+CHIPSET | Mediatek Helio G85 (MT6769Z)
 GPU     | Mali-G52 2EEMC2
 Memory  | 4GB
 Shipped Android Version | 11
