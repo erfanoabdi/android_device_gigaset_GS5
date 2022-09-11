@@ -227,7 +227,7 @@ ro.vendor.mtk_omacp_support=1
 init.userspace_reboot.is_supported=true
 
 # SurfaceFlinger
-debug.renderengine.backend=skiagl
+debug.renderengine.backend=skiaglthreaded
 debug.sf.disable_backpressure=1
 debug.sf.early.app.duration=20000000
 debug.sf.early.sf.duration=27600000
