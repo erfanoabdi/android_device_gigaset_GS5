@@ -1,6 +1,7 @@
 # Battery
 type sysfs_battery_warning, fs_type, sysfs_type;
 type prize_sysfs_batteryinfo, fs_type, sysfs_type;
+type cmd_charge_disable, fs_type, sysfs_type;
 
 # Lights
 type sys_led_brightness_file, fs_type, sysfs_type;
