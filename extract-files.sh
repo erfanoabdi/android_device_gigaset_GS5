@@ -8,8 +8,8 @@
 
 set -e
 
-DEVICE=nashc
-VENDOR=realme
+DEVICE=GS5
+VENDOR=gigaset
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

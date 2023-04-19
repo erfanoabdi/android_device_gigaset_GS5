@@ -9,15 +9,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from device makefile.
-$(call inherit-product, device/realme/nashc/device.mk)
+$(call inherit-product, device/gigaset/GS5/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_nashc
-PRODUCT_DEVICE := nashc
-PRODUCT_MANUFACTURER := Realme
-PRODUCT_BRAND := Realme
-PRODUCT_MODEL := Realme 8
+PRODUCT_NAME := lineage_GS5
+PRODUCT_DEVICE := GS5
+PRODUCT_MANUFACTURER := gigaset
+PRODUCT_BRAND := gigaset
+PRODUCT_MODEL := GS5
 
-PRODUCT_GMS_CLIENTID_BASE := android-realme
+PRODUCT_GMS_CLIENTID_BASE := android-gigaset

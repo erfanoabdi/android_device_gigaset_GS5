@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/realme/nashc
+DEVICE_PATH := device/gigaset/GS5
 
 BUILD_BROKEN_DUP_RULES := true
 
@@ -56,8 +56,8 @@ TARGET_SCREEN_DENSITY := 480
 # Kernel
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/realme/mt6785
-TARGET_KERNEL_CONFIG := lineage-nashc_defconfig
+TARGET_KERNEL_SOURCE := kernel/gigaset/mt6785
+TARGET_KERNEL_CONFIG := lineage-GS5_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := r450784d
 BOARD_KERNEL_SEPARATED_DTBO := true
@@ -150,4 +150,4 @@ DEVICE_MATRIX_FILE += $(DEVICE_PATH)/compatibility_matrix.xml
 BOARD_VNDK_VERSION := current
 
 # Inherit the proprietary files
-include vendor/realme/nashc/BoardConfigVendor.mk
+include vendor/gigaset/GS5/BoardConfigVendor.mk
