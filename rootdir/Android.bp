@@ -5,8 +5,8 @@
 //
 
 prebuilt_etc {
-    name: "fstab.mt6785",
-    src: "etc/fstab.mt6785",
+    name: "fstab.mt6768",
+    src: "etc/fstab.mt6768",
     vendor: true,
 }
 
@@ -53,15 +53,15 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.mt6785.rc",
-    src: "etc/init.mt6785.rc",
+    name: "init.mt6768.rc",
+    src: "etc/init.mt6768.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
-    name: "init.mt6785.usb.rc",
-    src: "etc/init.mt6785.usb.rc",
+    name: "init.mt6768.usb.rc",
+    src: "etc/init.mt6768.usb.rc",
     sub_dir: "init/hw",
     vendor: true,
 }

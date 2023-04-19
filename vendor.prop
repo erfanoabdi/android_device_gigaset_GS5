@@ -216,7 +216,7 @@ ro.vendor.wfd.dummy.enable=0
 ro.vendor.wfd.iframesize.level=0
 
 # MediaTek
-ro.vendor.mediatek.platform=MT6785
+ro.vendor.mediatek.platform=mt6768
 ro.vendor.mtk_prefer_64bit_proc=0
 ro.vendor.mediatek.version.branch=alps-mp-s0.mp1
 ro.vendor.mediatek.version.release=alps-mp-s0.mp1-V7
