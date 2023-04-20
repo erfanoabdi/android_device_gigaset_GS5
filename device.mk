@@ -312,10 +312,6 @@ PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     libsensorndkbridge
 
-# Soundtrigger
-PRODUCT_PACKAGES += \
-    android.hardware.soundtrigger@2.3-impl
-
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
