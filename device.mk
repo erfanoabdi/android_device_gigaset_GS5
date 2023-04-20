@@ -89,7 +89,7 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.1-impl
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
 # Camera
