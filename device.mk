@@ -239,10 +239,20 @@ PRODUCT_PACKAGES += \
     android.hardware.usb.gadget@1.1.vendor
 
 # Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
+PRODUCT_PACKAGES += \
+    FrameworksResOverlayGS5 \
+    SystemUIOverlayGS5 \
+    TelephonyOverlayGS5 \
+    TetheringResOverlay \
+    WifiResOverlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
