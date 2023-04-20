@@ -331,6 +331,14 @@ PRODUCT_PACKAGES += \
     ueventd.mtk.rc \
     ueventd.oplus.rc
 
+PRODUCT_PACKAGES += \
+    android.hardware.boot@1.2-service \
+    android.hardware.boot@1.2-mtkimpl \
+    android.hardware.boot@1.2-mtkimpl.recovery \
+
+PRODUCT_PACKAGES_DEBUG += \
+    bootctl
+
 # Secure Element
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0.vendor \
