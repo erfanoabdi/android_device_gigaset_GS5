@@ -111,10 +111,7 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey
 
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.0.vendor \
-    android.hardware.drm@1.1.vendor \
-    android.hardware.drm@1.2.vendor \
-    android.hardware.drm@1.3.vendor
+    android.hardware.drm@1.4.vendor
 
 # Display
 PRODUCT_PACKAGES += \
@@ -145,14 +142,10 @@ PRODUCT_PACKAGES += \
 
 # GNSS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss.measurement_corrections@1.0.vendor \
     android.hardware.gnss.measurement_corrections@1.1.vendor \
     android.hardware.gnss.visibility_control@1.0.vendor \
-    android.hardware.gnss@1.0.vendor \
     android.hardware.gnss@1.1.vendor \
-    android.hardware.gnss@2.0.vendor \
-    android.hardware.gnss@2.1.vendor \
-    android.hardware.gnss-V1-ndk.vendor
+    android.hardware.gnss@2.1.vendor
 
 # Health
 PRODUCT_PACKAGES += \
@@ -184,7 +177,6 @@ PRODUCT_COPY_FILES += \
 
 # Keymaster
 PRODUCT_PACKAGES += \
-    android.hardware.keymaster@4.0.vendor \
     android.hardware.keymaster@4.1.vendor \
     libkeymaster41.vendor:64 \
     libsoft_attestation_cert.vendor:64 \
@@ -201,8 +193,8 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
-    libcodec2_hidl@1.1.vendor \
     libcodec2_hidl@1.2.vendor \
+    libcodec2_hidl_plugin.vendor \
     libavservices_minijail_vendor \
     libstagefright_softomx_plugin.vendor \
     libsfplugin_ccodec_utils.vendor \
@@ -229,9 +221,6 @@ PRODUCT_COPY_FILES += \
 
 # Neural Networks
 PRODUCT_PACKAGES += \
-    android.hardware.neuralnetworks@1.0.vendor \
-    android.hardware.neuralnetworks@1.1.vendor \
-    android.hardware.neuralnetworks@1.2.vendor \
     android.hardware.neuralnetworks@1.3.vendor \
     libtextclassifier_hash.vendor
 
@@ -246,11 +235,7 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0.vendor \
-    android.hardware.usb@1.1.vendor \
-    android.hardware.usb@1.2.vendor \
     android.hardware.usb@1.3.vendor \
-    android.hardware.usb.gadget@1.0.vendor \
     android.hardware.usb.gadget@1.1.vendor
 
 # Overlays
@@ -306,8 +291,6 @@ PRODUCT_COPY_FILES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-mediatek \
-    android.hardware.power@1.0.vendor \
-    android.hardware.power@1.1.vendor \
     android.hardware.power@1.2.vendor
 
 # Public libraries
@@ -316,16 +299,7 @@ PRODUCT_COPY_FILES += \
 
 # Radio
 PRODUCT_PACKAGES += \
-    android.hardware.radio.config@1.0.vendor \
-    android.hardware.radio.config@1.1.vendor \
-    android.hardware.radio.config@1.2.vendor \
     android.hardware.radio.config@1.3.vendor \
-    android.hardware.radio@1.0.vendor \
-    android.hardware.radio@1.1.vendor \
-    android.hardware.radio@1.2.vendor \
-    android.hardware.radio@1.3.vendor \
-    android.hardware.radio@1.4.vendor \
-    android.hardware.radio@1.5.vendor \
     android.hardware.radio@1.6.vendor
 
 # RenderScript
@@ -362,14 +336,11 @@ PRODUCT_PACKAGES_DEBUG += \
 
 # Secure Element
 PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.0.vendor \
-    android.hardware.secure_element@1.1.vendor \
     android.hardware.secure_element@1.2.vendor
 
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0.vendor \
-    android.hardware.sensors@2.0.vendor \
     android.hardware.sensors@2.1.vendor \
     android.hardware.sensors@2.0-ScopedWakelock.vendor \
     android.frameworks.sensorservice@1.0.vendor \
@@ -403,22 +374,10 @@ PRODUCT_PACKAGES += \
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.1.vendor \
-    android.hardware.wifi@1.2.vendor \
-    android.hardware.wifi@1.3.vendor \
-    android.hardware.wifi@1.4.vendor \
     android.hardware.wifi@1.5.vendor \
-    android.hardware.wifi.hostapd@1.0.vendor \
-    android.hardware.wifi.hostapd@1.1.vendor \
-    android.hardware.wifi.hostapd@1.2.vendor \
     android.hardware.wifi.hostapd@1.3.vendor \
-    android.hardware.wifi.supplicant@1.0.vendor \
-    android.hardware.wifi.supplicant@1.1.vendor \
-    android.hardware.wifi.supplicant@1.2.vendor \
-    android.hardware.wifi.supplicant@1.3.vendor \
     android.hardware.wifi.supplicant@1.4.vendor \
     android.hardware.tetheroffload.config@1.0.vendor \
-    android.hardware.tetheroffload.control@1.0.vendor \
     android.hardware.tetheroffload.control@1.1.vendor
 
 PRODUCT_PACKAGES += \
