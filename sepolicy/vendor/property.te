@@ -1,0 +1,2 @@
+vendor_restricted_prop(vendor_focaltech_prop)
+typeattribute vendor_focaltech_prop mtk_core_property_type;

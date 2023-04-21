@@ -128,6 +128,7 @@ VENDOR_SECURITY_PATCH := 2023-03-05
 
 # SELinux
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
