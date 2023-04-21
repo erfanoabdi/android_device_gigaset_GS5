@@ -106,6 +106,10 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.6.vendor \
     libcamera2ndk_vendor
 
+# DMC
+PRODUCT_PACKAGES += \
+    libpcap.vendor
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey
@@ -154,6 +158,8 @@ PRODUCT_PACKAGES += \
 
 # HIDL
 PRODUCT_PACKAGES += \
+    android.hidl.allocator@1.0.vendor \
+    libstdc++.vendor \
     libhidltransport \
     libhidltransport.vendor \
     libhwbinder \
@@ -175,6 +181,7 @@ PRODUCT_COPY_FILES += \
 
 # Keymaster
 PRODUCT_PACKAGES += \
+    android.hardware.hardware_keystore.km41.xml \
     android.hardware.keymaster@4.1.vendor \
     libkeymaster41.vendor:64 \
     libsoft_attestation_cert.vendor:64 \
@@ -220,7 +227,10 @@ PRODUCT_COPY_FILES += \
 # Neural Networks
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor \
-    libtextclassifier_hash.vendor
+    libtextclassifier_hash.vendor \
+    libflatbuffers-cpp.vendor \
+    libruy.vendor \
+    libtensorflowlite.vendor
 
 # NFC
 PRODUCT_PACKAGES += \
